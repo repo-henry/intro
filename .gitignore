@@ -1,0 +1,15 @@
+#================================================
+#Development
+#------------------------------------------------
+#gulp*.js
+#css/
+#js/
+#build/
+#package.json
+#node_modules/
+
+
+#================================================
+# Always Show Assets directory and subdirectories
+!assets/css/
+!assets/js/

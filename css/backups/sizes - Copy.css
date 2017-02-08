@@ -1,0 +1,124 @@
+/*  To look good on a majority of phones
+the website should look good at a width of 350 px. */
+.wrapper {
+  width: 730px;;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+#fixed {
+  background-color: #eee;
+  width: 700px;
+  height: 100px;
+}
+
+#banner {
+  padding-left: 5px;
+}
+
+
+/* Main web site navigation tab positioning */
+#tabs {
+  position: absolute;
+  top: 46px;
+  left: 210px;
+}
+
+
+#content {
+  margin-top: 112px;
+  background-color: #fff;
+  padding: 5px;
+}
+
+#tabs {
+  margin-top: 12px;
+}
+
+#name {
+  margin-top: 15px;
+  margin-bottom: 1px;
+}
+
+#title {
+  margin-top: 4px;
+}
+
+#home {
+margin-top: -30px;
+}
+
+#hr1 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+
+  #profile
+, #expertise
+, #skills
+, #experience
+, #education
+, #references
+{
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+/* Professional Sabbatical spacing with Experience Label */
+#col1b h5 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#col3b h5 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+
+#edu  p:nth-child(1){
+    margin-bottom: 1px;
+}
+
+
+#edu  p:nth-child(2){
+    margin-top: 1px;
+}
+
+
+#edu  p:nth-child(3){
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+
+#edu  p:nth-child(4){
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+
+/* Experience Label Spacing */
+#e1, #e2, #e3, #e4
+{
+  height: 25px;
+}
+
+
+/* add spacing to separate login credentials */
+#clerk {
+  padding-left: 4px;
+}
+
+#password {
+  padding-left: 4px;
+}
+
+
+/* Responsive Design Components Tab
+=================================================*/
+
+#h1, #h2, #h3, #h4, #h5 {
+  margin-bottom: 3px;
+  margin-top: 20px;
+}

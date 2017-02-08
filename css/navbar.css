@@ -1,0 +1,74 @@
+/*  Sizes */
+#wrapper {
+  width: 650px;
+  margin: 0 auto;
+  /*  background-color: #FFFF00;  */
+}
+
+#fixed-top {
+  /*  background-color: #FFCC33;  */
+  /* Remove coloring around navbar-header */
+  background-color: #fff;
+  background-image: none;
+  border: none;
+  border-image: none;
+  border-image-width: 0;
+  -webkit-box-sizing: none;
+  box-shadow: none;
+  opacity: .95;
+
+  width: 100%
+
+}
+
+
+#container1 {
+  /* background-color: #FF9966; */
+  padding-left: 0;
+  padding-right: 0;
+  width: 650px;
+}
+
+
+#navbar-header {
+  /* background-color: #FF6699; */
+  background-color: #eee;
+  padding-top: 5px;
+  width: 100%;
+  float: left;
+  padding-left: 5px;
+}
+
+
+#navbar-brand {
+  /* background-color: #FF33CC; */
+  font-size: 1.45em;
+  margin-bottom: 0;
+}
+
+
+#navbar-brand-title {
+  /* background-color: #FF0000; */
+  font-size: .85em;
+  display: block;
+}
+
+#tabs {
+  background-color: #eee;
+  padding-left: 5px;
+}
+
+#nav-tabs li {
+  margin-top: 3px;
+}
+
+
+#container2 {
+  /* background color: background-color: #00FFFF;  */
+  margin-top: 11px;
+  width: 650px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}

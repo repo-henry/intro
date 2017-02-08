@@ -1,0 +1,77 @@
+/* Resume Tab
+=================================================*/
+
+
+#fixed {
+  position: fixed;
+  top: 0;
+  opacity: 0.95;
+  filter: alpha(opacity=95); /* For IE8 and earlier */
+}
+
+
+/* Experience labels */
+#e1, #e2, #e3, #e4 {
+  width: 100%;
+}
+
+#col1a, #col2a, #col3a,
+#col1b, #col2b, #col3b,
+#col1c, #col2c, #col3c,
+#col1d, #col2d, #col3d,
+#col1e, #col2e, #col3e
+{
+  display: inline-block;
+}
+
+#col3b,
+#col3c,
+#col3d,
+#col3e
+{
+  float:right;
+  margin-right: 1%;
+}
+
+#col2a, #col3a {
+  margin-left: 7%;
+}
+
+ #e1:after
+,#e2:after
+,#e3:after
+,#e4:after
+{
+ content: "";
+ display: block;
+ clear: both;
+}
+
+/* Experience Columns */
+#col3b h5,
+#col3c h5,
+#col3d h5,
+#col3e h5
+{
+  font-weight: bold;
+  text-align: right;
+}
+
+#col1b h5,
+#col1c h5,
+#col1d h5,
+#col1e h5
+{
+  font-weight: bold;
+}
+
+/* Responsive Design Components Tab
+=================================================*/
+
+/* First header */
+
+
+#h1, #h2, #h3, #h4, #h5
+{
+  font-weight: bold;
+}

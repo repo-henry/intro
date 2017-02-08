@@ -1,0 +1,59 @@
+/*  Resume Styles */
+#home {
+  margin-bottom: 75px;
+}
+
+
+#col1a, #col2a, #col3a,
+#col1b, #col2b,
+#col1c, #col2c,
+#col1d, #col2d,
+#col1e, #col2e
+{
+  display: inline-block;
+}
+
+
+#col3b,
+#col3c,
+#col3d,
+#col3e
+{
+  display: inline-block;
+  float: right;
+  text-align: right;
+}
+
+
+/* experience header rows
+Professional Sabbatical,Property Manager,
+Medi-cal .Net, Medi-cal COBOL */
+#col1b h5, #col2b, #col3b h5,
+#col1c h5, #col2c, #col3c h5,
+#col1d h5, #col2d, #col3d h5,
+#col1e h5, #col2e, #col3e h5
+{
+  margin-top: 3px;
+  margin-bottom: 1px;
+  font-weight: bold;
+}
+
+
+/*  education graduation information */
+#edu  p:nth-child(1){
+    margin-bottom: 1px;
+}
+
+#edu  p:nth-child(2){
+    margin-top: 1px;
+}
+
+#edu  p:nth-child(3){
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+#edu  p:nth-child(4){
+    margin-top: 1px;
+    margin-bottom: 2px;
+}

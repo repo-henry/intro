@@ -1,0 +1,17 @@
+/* contact tab styles */
+
+form {
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+input, textarea {
+  border-radius: 4px;
+  display: block;
+  clear:both;
+  margin-bottom: 20px;
+}
+input[type="submit"] {
+  margin-top: 20px;
+}
